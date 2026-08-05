@@ -2,7 +2,7 @@ name: Auto Release
 
 on:
   push:
-    #branches: [ "reallyNotHSMod" ]
+    branches: [ "NotHSMod" ]
     paths:
       - '**PluginInfo.cs'
   workflow_dispatch:
